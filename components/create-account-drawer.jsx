@@ -17,7 +17,7 @@ import { Switch } from './ui/switch';
 import { Button } from './ui/button';
 import { toast } from 'sonner';
 import useFetch from '@/hooks/use-fetch';
-import { createAccount } from '../../actions/dashboard';
+import { createAccount } from '@/actions/dashboard';
 import { Loader2 } from 'lucide-react';
 
 export function CreateAccountDrawer({ children }){
